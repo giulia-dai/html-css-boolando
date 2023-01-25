@@ -8,9 +8,9 @@ header{
     width: 100%;
     min-height: 80px;
     background-color: rgb(255, 104, 1);
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
 }
 
 .header-container{
@@ -35,9 +35,84 @@ header{
 
 .icone{
     text-align: right;
+    margin: 5px;
 }
 
 main{
     max-width: 1170px;
     margin: auto;
+    background-color: bisque;
+    min-height: 900px;
+    margin-top: 140px;
+    padding: 15px;
+}
+
+.item{
+    max-width: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+.presentazione-1{
+    width: 100%;
+}
+
+.presentazione-1b{
+    width: 100%;
+    display: none;
+}
+
+.col-container{
+    max-width: 300px;
+    min-height: 450px;
+}
+
+.col{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.marca{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.original-price{
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+ .red-tag{
+    position: absolute; 
+    bottom: 85px;
+    left:0;
+    background-color: red;
+}
+
+.green-tag{
+    position: absolute; 
+    background-color: green ;
+    left: 40px;
+    bottom: 85px;
+}
+
+.special-green-tag{
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+    background-color: green;
+}
+
+.wish-list{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 15px;
 }
